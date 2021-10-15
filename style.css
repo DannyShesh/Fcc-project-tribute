@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Quattrocento+Sans&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+#start{
+    background-image: url(IMG/mcgregor-vegas.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+
+#about{
+   background-image: url(IMG/Conor-McGregor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+    display: flex;
+    flex-direction: flex-end;
+    align-items: center;
+    
+}
+
+
+.box{
+    
+    display: flex;
+    flex-direction: column;
+   align-content: center;
+   justify-content: center;
+    width: 400px;
+    height: 450px;
+    background-color: rgb(27, 22, 22);
+    opacity:0.8;
+    border-radius: 27px;
+    margin: 100px;
+    
+    
+  
+   
+}
+
+#about h1{
+  font-size: 2rem;
+  color: white;
+  margin: 20px;
+padding: 10px;
+font-family: "Quattrocento Sans";
+}
+ 
+
+#about h2{
+    font-size: 1.8rem;
+    color: white;
+    margin: 20px;
+    padding: 0%;
+}
+
+
+#about p{
+    color: white;
+    font-size: 1rem;
+    margin: 30px;
+    font-family: lato, serif;
+}
+
+
+
+#youtube{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    }
+
+iframe{
+    width: 80%;
+    height: 80%;
+}    
+
+#tribute-info{
+    background-color: black;
+}
+
+
+#title{
+    background-color: black;
+}
+
+#img-div{
+    background-color: black;
+  
+    
+}
+
+#image{
+    max-width: 100%;
+  display: block;
+  height: auto;
+  
+}
