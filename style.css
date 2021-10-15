@@ -42,7 +42,7 @@
     opacity:0.8;
     border-radius: 27px;
     margin: 100px;
-   list;
+  
 }
 
 #about h1{
@@ -104,4 +104,13 @@ iframe{
   display: block;
   height: auto;
   
+}
+
+#tribute-link{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: brown;
+    align-items: center;
 }
